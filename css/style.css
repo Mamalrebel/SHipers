@@ -1,0 +1,273 @@
+@font-face {
+    font-family: nazanin;
+    src: url(../assets/fonts/Far_Nazanin/Far_Nazanin.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: nazanin;
+    direction: rtl;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.bg-y {
+    background-color: #ffd22d;
+}
+.flex {
+    display: flex;
+}
+.t-center {
+    text-align: center;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navigation .menu {
+    display: flex;
+}
+
+.navigation .menu li {
+    padding: 0 15px;
+}
+.navigation .menu a {
+    padding: 15px 0;
+    display: block;
+    transition: 0.3s;
+    font-size: 1.8em;
+    color: #ffd22d;
+    font-weight: 500;
+}
+.navigation .menu a:hover {
+    border-bottom: 3px solid #ffd22d;
+}
+.header-logo {
+    color: #ffd22d;
+    padding-left: 10px;
+}
+.welcome {
+    background: url(../assets/image/train.jpg) no-repeat center/cover;
+    min-height: 100vh; 
+}
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.click-shiper h2 {
+    color: #ffd22d;
+    font-size: 4em;
+    font-weight: 600;
+    padding: 15px;
+}
+.click-shiper span {
+    font-size: 1.3em;
+    font-weight: 400;
+    padding: 15px;
+}
+.click-shiper {
+    margin-top: 200px;
+}
+.google-app {
+    background-color: #ffd22d;
+    margin-top: 200px;
+    width: 300px;
+    height: auto;
+}
+.google-app span {
+    padding: 15px;
+}
+.google-app div {
+    background-color: #2a2a2a;
+    color: #f1f1f1;
+    padding: 5px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.google-app div:hover {
+    background-color: #458505;
+}
+/* end of welcome */
+/* start grid khadamat */
+.grid-box {
+    background:  linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../assets/image/khadamat.jpg) center/cover;
+    height: 60vh;
+}
+.grid-template {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-gap: 30px;
+}
+.grid-header {
+    height: 70px;
+    width: 100%;
+}
+.grid-header h2 {
+    color: #ffd22d;
+    border-bottom: 2px solid #ffd22d;
+}
+.boxservice {
+    background-color: #2a2a2a;
+    text-align: center;
+    border: 2px solid #ffd22d;
+    transition: 0.5s;
+}
+.boxservice a h3 {
+    color: #ffd22d;
+    font-size: 1.6em;
+    font-weight: 700;
+    display: inline-block;
+    padding: 15px 0;
+}
+.boxservice a i {
+    color: #ffd22d;
+    font-weight: 700;
+}
+.boxservice span {
+    color: #f1f1f1;
+    display: block;
+    font-size: 18px;
+    padding: 5px 0;
+    font-weight: 700;
+}
+.boxservice:hover {
+    background-color: #ffd22d;
+    border: 2px solid darkblue;
+    cursor: pointer;
+}
+.boxservice:hover h3 {
+    color: #2a2a2a;
+}
+.boxservice:hover i{
+    color: #2a2a2a;
+}
+.boxservice:hover span {
+    color: darkblue;
+}
+/* end grid khadamat */
+/* start type shiper */
+.cliclhere {
+    width: 100%;
+    justify-content: space-between;
+    flex-basis: auto;
+    height: 60vh;
+}
+.bgyellow {
+    background-color: #ffd22d;
+    flex-grow: 1;  
+    padding: 50px;
+    position: relative;
+}
+.bgyellow::after {
+    content: "یا";
+    text-align: center;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: blue;
+    border-radius: 50%;
+    top: 80px;
+    left: -50px;
+    color: white;
+}
+.clickh {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.clickspan {
+    display: block;
+    font-weight: 600;
+    color: blue;
+    font-size: 20px;
+}
+.btn {
+    padding: 12px 30px;
+    border: 2px solid black;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.btn:hover {
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.bgimg {
+    flex-grow: 1;
+    background: url(../assets/image/mobile.jpg) center/cover;  
+    padding: 50px;
+}
+/* end type shiper */
+/* start progress */
+.bgprogress {
+    background: url(../assets/image/yellowbackgrand.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 60vh;
+    border: 2px solid #2a2a2a;
+}
+.progress h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    padding: 20px;
+}
+.progress p {
+    color: blue;
+    font-size: 1.2em;
+}
+/* end progress */
+/* start profile */
+.bgprofile {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../assets/image/mobile2.jpg) no-repeat center/cover ;
+    width: 100%;
+    height: 60vh;
+}
+.profile {
+    width: 100px;
+    height: 100px;
+    background: url(../assets/image/profile.png) no-repeat center/cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.gridprofile {
+   display: grid;
+   grid-template-columns: repeat(3, minmax(300px, auto)) ; 
+   grid-gap: 50px;
+   margin-top: 40px; 
+}
+.profilediv p{
+    color: #f1f1f1;
+    display: inline-block;
+    font-size: 1.5em;
+}
+.arow {
+    color: #f1f1f1;
+    font-size: 10em;
+}
+.name h2 {
+    color: #ffd22d;
+    font-size: 1.7em;
+    font-weight: 600;
+}
