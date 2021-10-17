@@ -9,7 +9,15 @@
     <title>شیپرز | نهایت سرعت</title>
 </head>
 <body>
-    <!-- strt header -->
+    <!-- start loader -->
+    <div class="loaderpos">
+        <div class="loader">
+
+        </div>
+   </div>
+    <!-- end loader -->
+    <div class="wrapper">
+            <!-- start header -->
     <header>
         <div class="bg-nav">
             <div class="container header-container">
@@ -21,17 +29,17 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#profile">
                                پروفایل
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#about-us">
                                درباره ما
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#call">
                               تماس با ما
                             </a>
                         </li>
@@ -63,7 +71,7 @@
     </section>
     <!-- end welcome -->
     <!-- /* start grid khadamat */ -->
-    <section class="grid-box">
+    <section class="grid-box" id="about-us">
         <div class="container">
             <div class="grid-header t-center">
                 <h2> سرویس ها و خدمات شرکت  </h2>
@@ -152,7 +160,7 @@
     </section>
     <!-- end progress -->
     <!-- start profile -->
-    <section class="bgprofile">
+    <section class="bgprofile" id="profile">
         <div class="container">
             <div class="profilediv t-center">
                 <div class="profile"></div>
@@ -243,7 +251,7 @@
     </section>
     <!-- end estekhdam -->
     <!-- start form -->
-    <section class="bg-form">
+    <section class="bg-form" id="call">
         <div class="contact-form ">
             <div class="header">
                 <span><i class="las la-user-tie"></i></span>
@@ -285,7 +293,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="found-us">
+            <div class="found-us t-center">
                 <a href="https://web.telegram.org/" target="_blank">
                     <span class="tel">
                         <i class="lab la-telegram"></i>
@@ -305,6 +313,7 @@
         </div>
     </footer>
     <!-- end footer -->
+    </div>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/app.js"></script>

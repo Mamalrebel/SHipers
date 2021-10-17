@@ -3,6 +3,11 @@ $(document).ready(function() {
         $('.navigation li').removeClass('active')
          $(this).addClass('active')
     });
+
+    setTimeout(function() {
+        $('.loaderpos').hide();
+        $('.wrapper').show();
+    }, 2000);
 });
 
 $('.owl-carousel').owlCarousel({
@@ -25,3 +30,4 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+

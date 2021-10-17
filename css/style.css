@@ -34,6 +34,27 @@ a {
     margin: 0 auto;
 }
 
+.loader {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-top: 5px solid #ffd22d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -30px -30px 0 0;
+    animation: loader 1s linear infinite;
+}
+.loaderpos h3 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin: 0 0 0 -20px;
+}
+.wrapper {
+    display: none;
+}
+/* start header */
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -445,3 +466,8 @@ footer .list a{
 
 /* end footer */
 
+@keyframes loader {
+    100% {
+        transform: rotate(306deg);
+    }
+}
