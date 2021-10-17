@@ -1,4 +1,14 @@
+$(document).ready(function() {
+    $('.navigation li').click(function() {
+        $('.navigation li').removeClass('active')
+         $(this).addClass('active')
+    });
+});
+
 $('.owl-carousel').owlCarousel({
+    autoplay:true,
+    autoplayTimeout:2000,
+    center:true,
     rtl:true,
     loop:true,
     margin:10,
