@@ -18,6 +18,7 @@ ul {
 }
 a {
     text-decoration: none;
+    color: #ffd22d;
 }
 .bg-y {
     background-color: #ffd22d;
@@ -32,6 +33,7 @@ a {
     max-width: 960px;
     margin: 0 auto;
 }
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -40,7 +42,7 @@ a {
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+
 }
 
 .navigation .menu {
@@ -256,6 +258,9 @@ a {
     border-radius: 50%;
     margin: 0 auto;
 }
+.profilediv {
+   padding-top: 20px;
+}
 .gridprofile {
    display: grid;
    grid-template-columns: repeat(3, minmax(300px, auto)) ; 
@@ -314,6 +319,7 @@ a {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../assets/image/offroad.jpg) no-repeat center/cover;
 }
 /* end slider */
+ /* start estekhdam */
 .join {
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../assets/image/keshti.jpg) no-repeat center/cover;
     min-height: 40vh;
@@ -330,4 +336,112 @@ a {
     font-weight: normal;
     font-size: 1.5em;
 }
+/* end estekhdam */
+/* star form  */
+.bg-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../assets/image/khadamat.jpg) center/cover;
+    padding: 20px 0;
+}
+.contact-form {
+    background: #fff;
+    min-width: 400px;
+
+}
+.header {
+    width: 100%;
+    background:#2a2a2a ;
+    overflow: hidden;
+    color: #fff;
+}
+.header span {
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    padding: 40px;
+}
+.header span i {
+    color: #ffd22d;
+}
+.contact {
+    padding: 10px;
+    overflow: hidden;
+    color: #ffd22d;
+}
+.contact label {
+    font-weight: 700;
+    font-size: 30px;
+}
+.texti {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #2a2a2a;
+    font-size: 20px;
+    margin: 8px 0;
+    display: block;
+    outline: none;
+    color: blue;
+}
+.textm {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #2a2a2a;
+    font-size: 20px;
+    margin: 8px 0;
+    display: block;
+    outline: none;
+    color: blue;
+    min-height:100px ;
+}
+/* end form */
+/* start footer */
+.bg-footer {
+    background: url(../assets/image/yellowbackgrand.jpg) no-repeat center/cover; 
+    padding: 20px 0; 
+}
+.footer-text {
+    align-items: center;
+    justify-content: space-between;
+}
+footer .talk {
+    max-width: 400px;
+}
+footer .talk h2 {
+    color: blue;
+    font-weight: 600;
+    font-size: 2em;
+}
+footer .talk p {
+    color: #2a2a2a;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+footer .list li {
+    display: inline-block;
+}
+footer .list a{
+    color: blue;
+    padding: 15px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.found-us {
+    margin-top: 20px;
+}
+.found-us span {
+    font-size: 50px;
+}
+.found-us .tel {
+    color: #0707f1;
+}
+.found-us .insta {
+    color: #af1d83;
+}
+.found-us .twit {
+    color: #65dee2;
+}
+
+/* end footer */
 
